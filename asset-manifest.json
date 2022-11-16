@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/gdgindonesia/devfest/static/css/main.e8012b00.chunk.css",
+    "main.js": "/gdgindonesia/devfest/static/js/main.28d77ddc.chunk.js",
+    "main.js.map": "/gdgindonesia/devfest/static/js/main.28d77ddc.chunk.js.map",
+    "runtime-main.js": "/gdgindonesia/devfest/static/js/runtime-main.1cb72292.js",
+    "runtime-main.js.map": "/gdgindonesia/devfest/static/js/runtime-main.1cb72292.js.map",
+    "static/css/2.1f156bdb.chunk.css": "/gdgindonesia/devfest/static/css/2.1f156bdb.chunk.css",
+    "static/js/2.76e8aefd.chunk.js": "/gdgindonesia/devfest/static/js/2.76e8aefd.chunk.js",
+    "static/js/2.76e8aefd.chunk.js.map": "/gdgindonesia/devfest/static/js/2.76e8aefd.chunk.js.map",
+    "index.html": "/gdgindonesia/devfest/index.html",
+    "precache-manifest.08c76a952e2cdb0b8f5dff66ca8c00e2.js": "/gdgindonesia/devfest/precache-manifest.08c76a952e2cdb0b8f5dff66ca8c00e2.js",
+    "service-worker.js": "/gdgindonesia/devfest/service-worker.js",
+    "static/css/2.1f156bdb.chunk.css.map": "/gdgindonesia/devfest/static/css/2.1f156bdb.chunk.css.map",
+    "static/css/main.e8012b00.chunk.css.map": "/gdgindonesia/devfest/static/css/main.e8012b00.chunk.css.map",
+    "static/js/2.76e8aefd.chunk.js.LICENSE": "/gdgindonesia/devfest/static/js/2.76e8aefd.chunk.js.LICENSE",
+    "static/media/dashboard-banner.png": "/gdgindonesia/devfest/static/media/dashboard-banner.dd8e5a5f.png",
+    "static/media/street-view-500.png": "/gdgindonesia/devfest/static/media/street-view-500.08933b29.png",
+    "static/media/workspace-500.png": "/gdgindonesia/devfest/static/media/workspace-500.1843af74.png",
+    "static/media/wtm-logo.png": "/gdgindonesia/devfest/static/media/wtm-logo.1c8947d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cb72292.js",
+    "static/css/2.1f156bdb.chunk.css",
+    "static/js/2.76e8aefd.chunk.js",
+    "static/css/main.e8012b00.chunk.css",
+    "static/js/main.28d77ddc.chunk.js"
+  ]
+}
