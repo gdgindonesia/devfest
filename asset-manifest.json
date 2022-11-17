@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/devfest/static/css/main.e8012b00.chunk.css",
-    "main.js": "/devfest/static/js/main.70cd1fca.chunk.js",
-    "main.js.map": "/devfest/static/js/main.70cd1fca.chunk.js.map",
-    "runtime-main.js": "/devfest/static/js/runtime-main.a5115f73.js",
-    "runtime-main.js.map": "/devfest/static/js/runtime-main.a5115f73.js.map",
-    "static/css/2.1f156bdb.chunk.css": "/devfest/static/css/2.1f156bdb.chunk.css",
-    "static/js/2.76e8aefd.chunk.js": "/devfest/static/js/2.76e8aefd.chunk.js",
-    "static/js/2.76e8aefd.chunk.js.map": "/devfest/static/js/2.76e8aefd.chunk.js.map",
-    "index.html": "/devfest/index.html",
-    "precache-manifest.e30abcc0db37f5f0410da3772b435852.js": "/devfest/precache-manifest.e30abcc0db37f5f0410da3772b435852.js",
-    "service-worker.js": "/devfest/service-worker.js",
-    "static/css/2.1f156bdb.chunk.css.map": "/devfest/static/css/2.1f156bdb.chunk.css.map",
-    "static/css/main.e8012b00.chunk.css.map": "/devfest/static/css/main.e8012b00.chunk.css.map",
-    "static/js/2.76e8aefd.chunk.js.LICENSE.txt": "/devfest/static/js/2.76e8aefd.chunk.js.LICENSE.txt",
-    "static/media/dashboard-banner.png": "/devfest/static/media/dashboard-banner.dd8e5a5f.png",
-    "static/media/street-view-500.png": "/devfest/static/media/street-view-500.08933b29.png",
-    "static/media/workspace-500.png": "/devfest/static/media/workspace-500.1843af74.png",
-    "static/media/wtm-logo.png": "/devfest/static/media/wtm-logo.1c8947d6.png"
+    "main.css": "/static/css/main.e8012b00.chunk.css",
+    "main.js": "/static/js/main.319da981.chunk.js",
+    "main.js.map": "/static/js/main.319da981.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88836bfa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88836bfa.js.map",
+    "static/css/2.1f156bdb.chunk.css": "/static/css/2.1f156bdb.chunk.css",
+    "static/js/2.76e8aefd.chunk.js": "/static/js/2.76e8aefd.chunk.js",
+    "static/js/2.76e8aefd.chunk.js.map": "/static/js/2.76e8aefd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc5308a6d0d248445099a9916930854c.js": "/precache-manifest.fc5308a6d0d248445099a9916930854c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1f156bdb.chunk.css.map": "/static/css/2.1f156bdb.chunk.css.map",
+    "static/css/main.e8012b00.chunk.css.map": "/static/css/main.e8012b00.chunk.css.map",
+    "static/js/2.76e8aefd.chunk.js.LICENSE.txt": "/static/js/2.76e8aefd.chunk.js.LICENSE.txt",
+    "static/media/dashboard-banner.png": "/static/media/dashboard-banner.dd8e5a5f.png",
+    "static/media/street-view-500.png": "/static/media/street-view-500.08933b29.png",
+    "static/media/workspace-500.png": "/static/media/workspace-500.1843af74.png",
+    "static/media/wtm-logo.png": "/static/media/wtm-logo.1c8947d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5115f73.js",
+    "static/js/runtime-main.88836bfa.js",
     "static/css/2.1f156bdb.chunk.css",
     "static/js/2.76e8aefd.chunk.js",
     "static/css/main.e8012b00.chunk.css",
-    "static/js/main.70cd1fca.chunk.js"
+    "static/js/main.319da981.chunk.js"
   ]
 }
