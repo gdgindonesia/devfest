@@ -23,7 +23,7 @@ export const HeaderMobile = () => {
           >
             <img
               className="w-32"
-              src={require("@assets/images/logo/io-jakarta-logo.jpg")}
+              src={require("@assets/images/devfest.png")}
               alt="IO Extended Logo"
             />
           </Link>

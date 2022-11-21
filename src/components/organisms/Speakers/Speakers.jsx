@@ -24,7 +24,7 @@ export function Speakers({ featured }) {
             topic={speaker.topic}
             avatar_url={speaker.avatar_url}
             roles={speaker.roles}
-            social_media={speaker.social_media}
+            social_media=""
           />
         ))}
       </div>

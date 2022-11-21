@@ -16,7 +16,7 @@ export const HeaderDesktop = () => {
             >
               <img
                 className="w-36"
-                src={require("@assets/images/logo/io-jakarta-logo.jpg")}
+                src={require("@assets/images/devfest.png")}
                 alt="DevFest Indonesia 2022 Logo"
               />
             </Link>
@@ -36,14 +36,6 @@ export const HeaderDesktop = () => {
                 </NavLink>
               ))}
             </nav>
-          </div>
-
-          <div className="flex items-center space-x-3">
-            <ButtonLink
-              text="Register"
-              href={CONSTANTS.REGISTRATION_LINK}
-              icon={<MdLaunch size={16} />}
-            />
           </div>
         </div>
       </Container>

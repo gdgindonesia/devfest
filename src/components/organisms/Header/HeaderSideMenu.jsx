@@ -27,7 +27,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
           >
             <img
               className="w-64"
-              src={require("@assets/images/logo/io-jakarta-logo.jpg")}
+              src={require("@assets/images/devfest.png")}
               alt="DevFest Indonesia 2022 Logo"
             />
           </Link>
@@ -46,16 +46,6 @@ export const HeaderSideMenu = ({ show, onClose }) => {
               {route.title}
             </NavLink>
           ))}
-        </div>
-
-        <div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full p-5">
-          <ButtonLink
-            className="w-full justify-between"
-            href={CONSTANTS.REGISTRATION_LINK}
-            onClick={onClose}
-            text="Register"
-            icon={<MdLaunch size={16} />}
-          />
         </div>
       </div>
     </div>

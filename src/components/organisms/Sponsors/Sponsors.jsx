@@ -9,7 +9,7 @@ export function Sponsors() {
         {DATA_SPONSORS.map((sponsor) => (
           <a
             href={sponsor.site}
-            className="inline-block border-2 w-48 rounded-lg hover:border-gray-800 p-6"
+            className="inline-block w-48 rounded-lg hover:border-gray-800 p-6"
             target="_blank"
             rel="noreferrer"
           >

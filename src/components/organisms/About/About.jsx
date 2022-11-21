@@ -1,39 +1,58 @@
 import ReactPlayer from "react-player";
 import { MdDateRange, MdLaunch, MdLocationOn, MdPeople } from "react-icons/md";
-import { ButtonLink } from "@components/atoms";
-import { CONSTANTS } from "@utils/constants";
+import { ButtonLink, ButtonGdg } from "@components/atoms";
 
 export const About = () => {
-  const TOPICS = [
+  const CHAPTERS = [
     {
-      name: "Android",
-      icon: require("@assets/images/icons/android.svg").default,
-      color: "bg-green-100",
-      site: "https://developer.android.com/newsletter",
+      name: "Bogor",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-bogor-presents-devfest-bogor-2022/",
     },
     {
-      name: "Flutter",
-      icon: require("@assets/images/icons/flutter.svg").default,
-      color: "bg-blue-100",
-      site: "https://twitter.com/flutterdev",
+      name: "Depok",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-depok-presents-devfest-depok-2022/",
     },
     {
-      name: "Google Cloud",
-      icon: require("@assets/images/icons/google-cloud.svg").default,
-      color: "bg-red-100",
-      site: "https://cloud.google.com/developers",
+      name: "Jakarta",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-jakarta-presents-devfest-jakarta-2022/",
     },
     {
-      name: "Web",
-      icon: require("@assets/images/icons/web.svg").default,
-      color: "bg-blue-100",
-      site: "https://web.dev/newsletter/",
+      name: "Medan",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-medan-presents-devfest-medan-2022/",
     },
     {
-      name: "Firebase",
-      icon: require("@assets/images/icons/firebase.svg").default,
-      color: "bg-orange-100",
-      site: "https://twitter.com/Firebase",
+      name: "Bandung",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-bandung-presents-devfest-bandung-2022/",
+    },
+    {
+      name: "Semarang",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-semarang-presents-devfest-2022-semarang/",
+    },
+    {
+      name: "Surabaya",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-surabaya-presents-gdg-devfest-2022-surabaya/",
+    },
+    {
+      name: "Makassar",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-makassar-presents-devfest-makassar-2022/",
+    },
+    {
+      name: "Bali",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2022/",
+    },
+    {
+      name: "Cloud Bdg",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-cloud-bandung-presents-devfest-cloud-bandung-2022/",
     },
   ];
 
@@ -41,12 +60,12 @@ export const About = () => {
     <div className="space-y-24">
       <div className="space-y-8">
         <div className="space-y-3">
-          <h1 className="text-4xl font-display font-bold">DevFest Indonesia 2022!</h1>
+          <h1 className="text-4xl text-grey-700 font-display font-semibold"><span className="text-black font-bold">DevFest</span> Indonesia is here!</h1>
         </div>
         <div className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-20">
           <div className="w-full space-y-10">
             <p className="font-semibold">
-            DevFest is a local tech conference hosted by Google Developer Groups around the world. 
+            A local tech conference hosted by <a href="https://gdg.community.dev/" target="_blank" rel="noreferrer" className="text-blue-700 hover:text-blue-900 hover:underline text-bold">Google Developer Groups</a> around the world. 
             Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, 
             or by simply meeting fellow local developers.
               <br />
@@ -78,15 +97,9 @@ export const About = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6">
               <ButtonLink
-                text="Register"
+                text="Find near DevFest in your City"
                 className="w-full sm:w-5/6 md:w-auto justify-between"
-                href={CONSTANTS.REGISTRATION_LINK}
-                icon={<MdLaunch size={16} />}
-              />
-              <ButtonLink
-                text="Learn More About DevFest Indonesia 2022"
-                className="w-full sm:w-5/6 md:w-auto justify-between"
-                href={CONSTANTS.IO_OFFICIAL_SITE_LINK}
+                href="https://gdg.community.dev/events/"
                 icon={<MdLaunch size={16} />}
               />
             </div>
@@ -105,55 +118,17 @@ export const About = () => {
 
       <div className="space-y-8">
         <div className="space-y-5">
-          <h1 className="text-4xl font-display font-bold text-center">Occuring in the near future</h1>
-          <p className="text-center font-semibold text-lg">
-            Whether it be through technical talks delivered in local languages, Q&As with local{" "}
-            <a
-              href="https://developers.google.com/community/experts"
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-700 hover:text-blue-900 hover:underline"
-            >
-              Google Developer Experts
-            </a>
-            , or by simply meeting fellow local tech enthusiasts, I/O Extended attendees learn about how Google
-            developer products can help them do what they do best - develop.
-          </p>
+          <h1 className="text-3xl font-display font-bold">Find DevFest near in your city</h1>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="grid grid-cols-3 gap-3">
-            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
-              <div className="text-4xl sm:text-5xl font-bold">10+</div>
-              <div className="text-base font-semibold">Speakers</div>
-            </div>
-            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
-              <div className="text-4xl sm:text-5xl font-bold">4</div>
-              <div className="text-base font-semibold">Panels</div>
-            </div>
-            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
-              <div className="text-4xl sm:text-5xl font-bold">
-                <MdPeople />
-              </div>
-              <div className="text-base font-semibold">In-person Event</div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-center">
-            {TOPICS.map((topic) => (
-              <a
-                href={topic.site}
-                target="_blank"
-                rel="noreferrer"
-                className="flex flex-col items-center rounded-lg p-3 sm:p-6 space-y-3 border-2 hover:border-gray-800"
-              >
-                <div className={`rounded-full p-3 sm:p-6 bg-opacity-50 ${topic.color}`}>
-                  <img
-                    src={topic.icon}
-                    alt=""
-                  />
-                </div>
-                <div className="text-base sm:text-lg font-semibold">{topic.name}</div>
-              </a>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+            {CHAPTERS.map((chapter) => (
+              <ButtonGdg
+                text={`GDG ${chapter.name}`}
+                className="w-full sm:w-5/6 md:w-auto justify-between"
+                href={`${chapter.site}`}
+                prefixIcon={<img src={chapter.icon} alt=""/>}
+              />
             ))}
           </div>
         </div>

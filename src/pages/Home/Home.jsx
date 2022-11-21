@@ -21,7 +21,7 @@ function Home() {
           <Fade>
             <div className="space-y-12">
               <div className="space-y-3">
-                <h1 className="text-4xl font-bold">Speakers</h1>
+                <h1 className="text-3xl font-display font-bold">Highlight Speakers</h1>
                 <p className="text-lg font-semibold">
                   Our speakers are influential folks & allies who have been associated with communities within their
                   organisations, cities, country and beyond.
@@ -46,7 +46,7 @@ function Home() {
           </Fade>
         </section>
 
-        <section>
+        {/* <section>
           <Fade>
             <div className="space-y-12">
               <div className="space-y-3">
@@ -56,7 +56,7 @@ function Home() {
               <FAQ />
             </div>
           </Fade>
-        </section>
+        </section> */}
 
       </Container>
     </div>

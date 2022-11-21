@@ -1,3 +1,8 @@
 .button {
-  @apply inline-flex items-center space-x-3 border-2 rounded-lg border-gray-700 py-2 px-5 font-semibold hover:bg-gray-100 transition;
+  @apply inline-flex items-center space-x-3 border-2 rounded-lg border-gray-200 py-2 px-5 font-semibold hover:bg-gray-100 transition;
+}
+
+.gdg-button {
+  float: left;
+  width: 20px;
 }
