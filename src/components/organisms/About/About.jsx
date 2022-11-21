@@ -97,7 +97,7 @@ export const About = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6">
               <ButtonLink
-                text="Find near DevFest in your City"
+                text="Find DevFest near you"
                 className="w-full sm:w-5/6 md:w-auto justify-between"
                 href="https://gdg.community.dev/events/"
                 icon={<MdLaunch size={16} />}

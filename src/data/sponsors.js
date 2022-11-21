@@ -5,19 +5,9 @@ export const DATA_SPONSORS = [
     site: "https://idcloudhost.com/",
   },
   {
-    name: "Hactiv8",
-    logo: "https://statics.hacktiv8.com/images/logo/hacktiv8-dark.webp",
-    site: "https://hacktiv8.com/",
-  },
-  {
     name: "Dicoding",
     logo: "https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/certificate_logo.png",
     site: "https://dicoding.com/",
-  },
-  {
-    name: "Technoevent",
-    logo: "http://teknoevent.com/wp-content/uploads/2020/01/logo-teknoevent-230x90-1.png",
-    site: "https://technoevent.com/",
   },
   {
     name: "Selaksa",
