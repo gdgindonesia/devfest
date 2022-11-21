@@ -1,6 +1,7 @@
 {
   "name": "google-io-extended-jakarta",
   "version": "0.1.0",
+  "homepage": "https://devfestindonesia.com/",
   "private": true,
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
@@ -27,7 +28,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "react-app-rewire-alias": "^1.1.7",
     "react-app-rewired": "^2.2.1",
